@@ -186,7 +186,6 @@ EOF
 echo $a
 
 # command > file 2>&1
-. ./t2.sh
 echo $url
 #for i in $(ping $url); do
 #    echo $i
