@@ -90,9 +90,9 @@ printf "%s %s %s\n" a b c d e f g h i j
 printf "%s %s %s\f" a b c d e f g h i j
 echo "";
 ### 计数效果
-#for i in {1..100000}; do
-#    printf "%s\b\b\b\b\b\b\b" $i
-#done
+for i in {1..100000}; do
+    printf "%s\b\b\b\b\b\b\b" $i
+done
 a=3
 b=10
 c=$[a+b]
